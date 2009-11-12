@@ -1,0 +1,54 @@
+
+/** Common styles */
+body { font-family:"Trebuchet MS", Verdana, sans-serif; }
+a { color:#266187; }
+a:hover { background-color:#efefef; }
+
+/** Some classes */
+.message { background-color:#dff4db; padding:10px; font-weight:bold; margin:0 0 10px 0; border:2px solid #85ab7e; }
+.format_info { font-size:0.75em; font-style:italic; }
+.errorlist { color:red; font-weight:bold; font-size:0.8em; }
+
+/** Wrapper */
+#wrapper { width:70%; margin:0 auto; }
+
+/** Header */
+#header { color:#ffffff; background-color:#000000; padding:10px; }
+
+/** Navigation */
+#navigation { background-color:#d8e2f5; font-size:0.9em; font-weight:bold; padding:10px; }
+#navigation > ul > li { padding:10px; display:inline; }
+#navigation > ul > li.active { background-color:#acc1e8; }
+#navigation > ul > li > a { color:#414245; }
+#navigation > ul > li > a:hover { text-decoration:underline; }
+
+/** Button row */
+.buttonRow { margin-bottom:10px; }
+.buttonRow > ul > li { display:inline; }
+.buttonRow > ul > li > a { padding:3px 6px 3px 6px; background-color:#f2f2f2; -moz-border-radius:7px; color:#282828; font-size:0.75em; }
+.buttonRow > ul > li > a:hover { background-color:#e7e9f6; }
+
+/** Content */
+#content-wrapper { padding:10px; font-size:0.9em;}
+#content h2 { border-bottom:1px solid black; padding-bottom:4px; margin-bottom:10px; font-size:1.2em; color:#1f19f9; }
+#content h3 { border-bottom:1px solid black; padding-bottom:4px; margin-bottom:10px; font-size:1.1em; color:#1f19f9; }
+
+/** Admin task list */
+#adminTaskList > dt { margin-bottom:1px; font-weight:bold; }
+#adminTaskList > dd { padding:0; margin:0 0 20px 0; }
+
+/** Data table */
+.dataTable { width:100%; }
+.dataTable th { background-color:#dfe6eb; text-align:left; }
+.dataTable td, .dataTable th { padding:5px; }
+.dataTable tr.odd > td { background-color:#f5f5f5; }
+.dataTable tr.group th { background-color:#eaeaea; font-style:italic;}
+
+/** Forms */
+dl > dt { font-weight:bold; margin-bottom:2px; }
+dl > dd { margin:0 0 10px 0; padding:0; }
+
+input, textarea { font-family:"Trebuchet MS", Verdana, sans-serif; font-size:0.9em; }
+input[type="text"], input[type="password"] { padding:3px; width:250px; }
+input[type="radio"] { margin-left:10px; }
+textarea { width:250px; height:150px; padding:3px; }

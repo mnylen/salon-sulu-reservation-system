@@ -1,0 +1,2 @@
+# Set the include_path to point to the directory containing rest of the files
+php_value include_path .
